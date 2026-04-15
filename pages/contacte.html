@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte - Plant Your Day</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div class="brand-bar">
+        <span class="logo-icon">🌱</span>
+        <h1>Plant Your Day</h1>
+        <p class="tagline">Una agenda visual interactiva dissenyada per a persones amb TEA — organitza, creix, assoleix.</p>
+    </div>
+
+    <nav class="tab-nav" role="navigation" aria-label="Navegació principal">
+        <a href="../index.html">Inici</a>
+        <a href="funcionament.html">Funcionament</a>
+        <a href="model-negoci.html">Model de Negoci</a>
+        <a href="video.html">Vídeo</a>
+        <a href="equip.html">Equip</a>
+        <a href="contacte.html" class="active">Contacte</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>Contacte</h2>
+                <p>T'agradaria col·laborar, rebre més informació o simplement enviar-nos un missatge? Estem aquí per escoltar-te.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="card">
+                    <h2>Envia'ns un missatge</h2>
+                    <form class="contact-form" onsubmit="handleContact(event)">
+                        <input type="text" placeholder="Nom i cognoms" required autocomplete="name">
+                        <input type="email" placeholder="Correu electrònic" required autocomplete="email">
+                        <input type="text" placeholder="Assumpte">
+                        <textarea placeholder="El teu missatge..."></textarea>
+                        <button type="submit">Enviar missatge</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <h2>Informació de contacte</h2>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <span class="ci-icon">📧</span>
+                            <p><strong>Correu electrònic</strong>hola@mattcorp.cat</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="ci-icon">🌐</span>
+                            <p><strong>Web</strong>www.plantyourday.app</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="ci-icon">📍</span>
+                            <p><strong>Ubicació</strong>Catalunya, Espanya</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="ci-icon">🤝</span>
+                            <p><strong>Col·laboracions</strong>Fundació Autisme Mas Casadevall</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolupat per l'equip de <span>MATT CORP</span>: Òscar Domínguez Martinez, Jan Noguer Reixach</p>
+        <p style="margin-top:0.4rem">© 2026 MATT CORP — Tots els drets reservats.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
