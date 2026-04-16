@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
@@ -8,72 +8,136 @@
 </head>
 <body>
 
-    <div class="brand-bar">
-        <span class="logo-icon"><img src="../assets/imatges/logoAPP.png" alt="Logo" width="150" height="150*"></span>
-        <h1>Plant Your Day</h1>
-        <p class="tagline">Una agenda visual interactiva dissenyada per a persones amb TEA — organitza, creix, assoleix.</p>
-    </div>
+    <a href="#main" class="skip-link">Saltar al contingut</a>
 
-    <nav class="tab-nav" role="navigation" aria-label="Navegació principal">
-        <a href="../index.html">Inici</a>
-        <a href="funcionament.html" class="active">Funcionament</a>
-        <a href="model-negoci.html">Model de Negoci</a>
-        <a href="video.html">Vídeo</a>
-        <a href="equip.html">Equip</a>
-        <a href="contacte.html">Contacte</a>
+    <nav class="navbar" role="navigation" aria-label="Navegacio principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="navbar-logo">
+                <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day Logo">
+                <span>Plant Your Day</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="../index.html">Inici</a>
+                <a href="funcionament.html" class="active">Funcionament</a>
+                <a href="model-negoci.html">Model de Negoci</a>
+                <a href="video.html">Video</a>
+                <a href="equip.html">Equip</a>
+                <a href="contacte.html">Contacte</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Obrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <div class="card">
-                <h2>Com funciona l'aplicació?</h2>
-                <p>Plant Your Day guia l'usuari pas a pas a través d'una interfície senzilla i adaptada, permetent que tutors i educadors configurin les rutines de manera personalitzada.</p>
-            </div>
+    <main id="main">
+        <section class="page-hero">
+            <h1>Com funciona Plant Your Day</h1>
+            <p>Descobreix les caracteristiques i funcionalitats de la nostra aplicacio</p>
+        </section>
 
-            <div class="steps">
-                <div class="step">
-                    <div class="step-num">1</div>
-                    <div class="step-body">
-                        <strong>Configuració del perfil</strong>
-                        <p>El tutor o educador crea el perfil de l'alumne i personalitza les preferències visuals, de so i de dificultat de les tasques.</p>
-                    </div>
+        <section class="content-section">
+            <div class="content-inner">
+                <div class="section-header">
+                    <span class="section-label">Pas a pas</span>
+                    <h2>Flux d'us de l'aplicacio</h2>
+                    <p>Plant Your Day guia l'usuari pas a pas a traves d'una interficie senzilla i adaptada</p>
                 </div>
-                <div class="step">
-                    <div class="step-num">2</div>
-                    <div class="step-body">
-                        <strong>Creació de la rutina diària</strong>
-                        <p>S'assignen pictogrames d'ARASAAC a cada franja horària del dia, formant una seqüència visual clara i fàcil de seguir per l'usuari.</p>
+
+                <div class="steps">
+                    <div class="step fade-up">
+                        <div class="step-num">1</div>
+                        <div class="step-body">
+                            <strong>Configuracio del perfil</strong>
+                            <p>El tutor o educador crea el perfil de l'alumne i personalitza les preferencies visuals, de so i de dificultat de les tasques.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="step">
-                    <div class="step-num">3</div>
-                    <div class="step-body">
-                        <strong>Execució de les tasques</strong>
-                        <p>L'usuari veu les seves tasques del dia representades visualment. En completar cada activitat, marca-la com a feta amb un sol toc.</p>
+                    <div class="step fade-up fade-up-delay-1">
+                        <div class="step-num">2</div>
+                        <div class="step-body">
+                            <strong>Creacio de la rutina diaria</strong>
+                            <p>S'assignen pictogrames d'ARASAAC a cada franja horaria del dia, formant una sequencia visual clara i facil de seguir per l'usuari.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="step">
-                    <div class="step-num">4</div>
-                    <div class="step-body">
-                        <strong>Reforç positiu amb el jardí virtual</strong>
-                        <p>Cada tasca completada fa créixer el jardí virtual de l'usuari, actuant com a recompensa motivadora i reforç positiu immediat.</p>
+                    <div class="step fade-up fade-up-delay-2">
+                        <div class="step-num">3</div>
+                        <div class="step-body">
+                            <strong>Execucio de les tasques</strong>
+                            <p>L'usuari veu les seves tasques del dia representades visualment. En completar cada activitat, marca-la com a feta amb un sol toc.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="step">
-                    <div class="step-num">5</div>
-                    <div class="step-body">
-                        <strong>Seguiment i ajustos</strong>
-                        <p>El tutor pot revisar l'historial de tasques completades i ajustar la rutina en funció del progrés i les necessitats de l'alumne.</p>
+                    <div class="step fade-up fade-up-delay-3">
+                        <div class="step-num">4</div>
+                        <div class="step-body">
+                            <strong>Reforc positiu amb el jardi virtual</strong>
+                            <p>Cada tasca completada fa creixer el jardi virtual de l'usuari, actuant com a recompensa motivadora i reforc positiu immediat.</p>
+                        </div>
+                    </div>
+                    <div class="step fade-up fade-up-delay-4">
+                        <div class="step-num">5</div>
+                        <div class="step-body">
+                            <strong>Seguiment i ajustos</strong>
+                            <p>El tutor pot revisar l'historial de tasques completades i ajustar la rutina en funcio del progres i les necessitats de l'alumne.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="cta-banner-inner fade-up">
+                <h2>Preparat per provar Plant Your Day?</h2>
+                <p>Descarrega l'aplicacio ara i descobreix com pot millorar les rutines diaries.</p>
+                <div class="cta-banner-buttons">
+                    <a href="../index.html#descarrega" class="btn btn-primary">Descarregar App</a>
+                    <a href="contacte.html" class="btn btn-outline">Contacta'ns</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Desenvolupat per l'equip de <span>MATT CORP</span>: Òscar Domínguez Martinez, Jan Noguer Reixach</p>
-        <p style="margin-top:0.4rem">© 2026 MATT CORP — Tots els drets reservats.</p>
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-brand-logo">
+                        <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day">
+                        <span>Plant Your Day</span>
+                    </a>
+                    <p>Fent les rutines mes facils per a persones amb TEA.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegacio</h4>
+                    <ul>
+                        <li><a href="../index.html">Inici</a></li>
+                        <li><a href="funcionament.html">Funcionament</a></li>
+                        <li><a href="model-negoci.html">Model de Negoci</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Projecte</h4>
+                    <ul>
+                        <li><a href="equip.html">Equip</a></li>
+                        <li><a href="contacte.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacte</h4>
+                    <ul>
+                        <li>hola@mattcorp.cat</li>
+                        <li>Catalunya, Espanya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MATT CORP. Tots els drets reservats.</p>
+                <p>Desenvolupat per Oscar Dominguez Martinez i Jan Noguer Reixach</p>
+            </div>
+        </div>
     </footer>
 
+    <button class="scroll-top" id="scrollTop" aria-label="Tornar a dalt">&#8593;</button>
+    <script src="../js/main.js"></script>
 </body>
 </html>

@@ -1,57 +1,115 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vídeo - Plant Your Day</title>
+    <title>Video - Plant Your Day</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
-    <div class="brand-bar">
-        <span class="logo-icon"><img src="../assets/imatges/logoAPP.png" alt="Logo" width="150" height="150*"></span>
-        <h1>Plant Your Day</h1>
-        <p class="tagline">Una agenda visual interactiva dissenyada per a persones amb TEA — organitza, creix, assoleix.</p>
-    </div>
+    <a href="#main" class="skip-link">Saltar al contingut</a>
 
-    <nav class="tab-nav" role="navigation" aria-label="Navegació principal">
-        <a href="../index.html">Inici</a>
-        <a href="funcionament.html">Funcionament</a>
-        <a href="model-negoci.html">Model de Negoci</a>
-        <a href="video.html" class="active">Vídeo</a>
-        <a href="equip.html">Equip</a>
-        <a href="contacte.html">Contacte</a>
+    <nav class="navbar" role="navigation" aria-label="Navegacio principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="navbar-logo">
+                <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day Logo">
+                <span>Plant Your Day</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="../index.html">Inici</a>
+                <a href="funcionament.html">Funcionament</a>
+                <a href="model-negoci.html">Model de Negoci</a>
+                <a href="video.html" class="active">Video</a>
+                <a href="equip.html">Equip</a>
+                <a href="contacte.html">Contacte</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Obrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <div class="card">
-                <h2>Vídeo Promocional</h2>
-                <p>Un recorregut d'un minut per conèixer Plant Your Day en acció.</p>
-            </div>
+    <main id="main">
+        <section class="page-hero">
+            <h1>Video Promocional</h1>
+            <p>Un recorregut d'un minut per coneixer Plant Your Day en accio</p>
+        </section>
 
-            <div class="video-wrapper">
-                <video src="../assets/video/Plant Your Day - Minecraft Edition_720p_caption.mp4" controls>
-                    El teu navegador no suporta l'etiqueta de vídeo.
-                </video>
-            </div>
+        <section class="content-section">
+            <div class="content-inner">
+                <div class="video-wrapper fade-up">
+                    <video src="../assets/video/Plant Your Day - Minecraft Edition_720p_caption.mp4" controls>
+                        El teu navegador no suporta l'etiqueta de video.
+                    </video>
+                </div>
 
-            <div class="card">
-                <h2>Guió Tècnic del Vídeo</h2>
-                <ul class="script-list">
-                    <li><strong>0:00 – 0:15 (El Repte):</strong> Imatges d'un tutor organitzant el dia. <em>Veu en off:</em> "Estructurar les rutines diàries pot ser tot un repte, però la tecnologia ens obre noves portes a l'autonomia."</li>
-                    <li><strong>0:15 – 0:35 (La Solució):</strong> Captures reals de l'app Plant Your Day a la tauleta, assignant pictogrames d'ARASAAC per franges horàries. <em>Veu en off:</em> "Amb Plant Your Day, oferim una agenda visual interactiva i lliure d'estrès, totalment adaptada i personalitzada per a cada alumne."</li>
-                    <li><strong>0:35 – 0:50 (La Diferenciació):</strong> Plànol animat de l'usuari completant una tasca i el jardí virtual creixent. <em>Veu en off:</em> "Més que una agenda, és un joc. El teu jardí virtual creix amb tu, com a reforç positiu per cada èxit diari."</li>
-                    <li><strong>0:50 – 1:00 (Tancament):</strong> Logotip de MATT CORP i Plant Your Day. <em>Veu en off:</em> "Plant Your Day. Organitza, Creix, Assoleix. Descarrega-la avui mateix."</li>
-                </ul>
+                <div class="card fade-up">
+                    <h2>Guio Tecnic del Video</h2>
+                    <ul class="script-list">
+                        <li><strong>0:00 - 0:15 (El Repte):</strong> Imatges d'un tutor organitzant el dia. <em>Veu en off:</em> "Estructurar les rutines diaries pot ser tot un repte, pero la tecnologia ens obre noves portes a l'autonomia."</li>
+                        <li><strong>0:15 - 0:35 (La Solucio):</strong> Captures reals de l'app Plant Your Day a la tauleta, assignant pictogrames d'ARASAAC per franges horaries. <em>Veu en off:</em> "Amb Plant Your Day, oferim una agenda visual interactiva i lliure d'estres, totalment adaptada i personalitzada per a cada alumne."</li>
+                        <li><strong>0:35 - 0:50 (La Diferenciacio):</strong> Pla animat de l'usuari completant una tasca i el jardi virtual creixent. <em>Veu en off:</em> "Mes que una agenda, es un joc. El teu jardi virtual creix amb tu, com a reforc positiu per cada exit diari."</li>
+                        <li><strong>0:50 - 1:00 (Tancament):</strong> Logotip de MATT CORP i Plant Your Day. <em>Veu en off:</em> "Plant Your Day. Organitza, Creix, Assoleix. Descarrega-la avui mateix."</li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="cta-banner-inner fade-up">
+                <h2>T'ha agradat el que has vist?</h2>
+                <p>Descarrega l'aplicacio i prova-la tu mateix.</p>
+                <div class="cta-banner-buttons">
+                    <a href="../index.html#descarrega" class="btn btn-primary">Descarregar App</a>
+                    <a href="funcionament.html" class="btn btn-outline">Com funciona</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Desenvolupat per l'equip de <span>MATT CORP</span>: Òscar Domínguez Martinez, Jan Noguer Reixach</p>
-        <p style="margin-top:0.4rem">© 2026 MATT CORP — Tots els drets reservats.</p>
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-brand-logo">
+                        <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day">
+                        <span>Plant Your Day</span>
+                    </a>
+                    <p>Fent les rutines mes facils per a persones amb TEA.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegacio</h4>
+                    <ul>
+                        <li><a href="../index.html">Inici</a></li>
+                        <li><a href="funcionament.html">Funcionament</a></li>
+                        <li><a href="model-negoci.html">Model de Negoci</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Projecte</h4>
+                    <ul>
+                        <li><a href="equip.html">Equip</a></li>
+                        <li><a href="contacte.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacte</h4>
+                    <ul>
+                        <li>hola@mattcorp.cat</li>
+                        <li>Catalunya, Espanya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MATT CORP. Tots els drets reservats.</p>
+                <p>Desenvolupat per Oscar Dominguez Martinez i Jan Noguer Reixach</p>
+            </div>
+        </div>
     </footer>
 
+    <button class="scroll-top" id="scrollTop" aria-label="Tornar a dalt">&#8593;</button>
+    <script src="../js/main.js"></script>
 </body>
 </html>

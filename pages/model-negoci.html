@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
@@ -8,50 +8,113 @@
 </head>
 <body>
 
-    <div class="brand-bar">
-        <span class="logo-icon"><img src="../assets/imatges/logoAPP.png" alt="Logo" width="150" height="150*"></span>
-        <h1>Plant Your Day</h1>
-        <p class="tagline">Una agenda visual interactiva dissenyada per a persones amb TEA — organitza, creix, assoleix.</p>
-    </div>
+    <a href="#main" class="skip-link">Saltar al contingut</a>
 
-    <nav class="tab-nav" role="navigation" aria-label="Navegació principal">
-        <a href="../index.html">Inici</a>
-        <a href="funcionament.html">Funcionament</a>
-        <a href="model-negoci.html" class="active">Model de Negoci</a>
-        <a href="video.html">Vídeo</a>
-        <a href="equip.html">Equip</a>
-        <a href="contacte.html">Contacte</a>
+    <nav class="navbar" role="navigation" aria-label="Navegacio principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="navbar-logo">
+                <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day Logo">
+                <span>Plant Your Day</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="../index.html">Inici</a>
+                <a href="funcionament.html">Funcionament</a>
+                <a href="model-negoci.html" class="active">Model de Negoci</a>
+                <a href="video.html">Video</a>
+                <a href="equip.html">Equip</a>
+                <a href="contacte.html">Contacte</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Obrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <div class="card">
-                <h2>Model de Negoci</h2>
-                <p>El model de negoci de MATT CORP s'enfoca en la sostenibilitat i l'impacte social directe. La nostra proposta de valor es fonamenta en:</p>
-                <ul>
-                    <li><strong>Inclusió Tecnològica:</strong> Utilitzar la innovació com a eina d'inclusió, dissenyant solucions accessibles que millorin l'autonomia i la qualitat de vida de les persones amb autisme.</li>
-                    <li><strong>Privacitat des del Disseny (Privacy by Design):</strong> Com que tractem dades sensibles, garantim el compliment rigorós de l'RGPD, assegurant que les dades dels usuaris mai es comercialitzaran i es tractaran amb els estàndards més alts de confidencialitat.</li>
-                    <li><strong>Sostenibilitat (Green IT):</strong> Promovem un ecosistema digital ètic. Apliquem una política d'economia circular allargant la vida útil del nostre maquinari i optimitzant el codi per reduir el consum energètic dels nostres servidors.</li>
-                </ul>
-            </div>
+    <main id="main">
+        <section class="page-hero">
+            <h1>Model de Negoci</h1>
+            <p>La nostra proposta de valor i estrategia de sostenibilitat</p>
+        </section>
 
-            <div class="card">
-                <h2>Estratègia de Màrqueting</h2>
-                <p>La nostra estratègia busca diferenciar "Plant Your Day" d'altres aplicacions del mercat i arribar al nostre públic objectiu mitjançant la col·laboració:</p>
-                <ul>
-                    <li><strong>Diferenciació per Gamificació:</strong> Ens posicionem per sobre de la competència gràcies a la nostra interfície gamificada on un jardí virtual creix a mesura que es completen les tasques, actuant com un reforç positiu per a l'usuari.</li>
-                    <li><strong>Aliances Estratègiques (B2B):</strong> Busquem establir col·laboracions amb escoles d'educació especial, centres de teràpia i associacions de famílies amb persones amb TEA per validar l'eina i expandir-ne l'ús.</li>
-                    <li><strong>Validació Social i Comunitària:</strong> El nostre desenvolupament està avalat per la resolució de dubtes amb professionals i l'ajuda d'entitats expertes, com la Fundació Autisme Mas Casadevall.</li>
-                    <li><strong>Transparència de Marca:</strong> La nostra estructura de govern horitzontal, ètica i 100% transparent es converteix en un reclam clau per generar confiança en les famílies i futurs inversors.</li>
-                </ul>
+        <section class="content-section">
+            <div class="content-inner">
+                <div class="card fade-up">
+                    <h2>Proposta de Valor</h2>
+                    <p>El model de negoci de MATT CORP s'enfoca en la sostenibilitat i l'impacte social directe. La nostra proposta de valor es fonamenta en:</p>
+                    <ul>
+                        <li><strong>Inclusio Tecnologica:</strong> Utilitzar la innovacio com a eina d'inclusio, dissenyant solucions accessibles que millorin l'autonomia i la qualitat de vida de les persones amb autisme.</li>
+                        <li><strong>Privacitat des del Disseny (Privacy by Design):</strong> Com que tractem dades sensibles, garantim el compliment rigoros de l'RGPD, assegurant que les dades dels usuaris mai es comercialitzaran i es tractaran amb els estandards mes alts de confidencialitat.</li>
+                        <li><strong>Sostenibilitat (Green IT):</strong> Promovem un ecosistema digital etic. Apliquem una politica d'economia circular allargant la vida util del nostre maquinari i optimitzant el codi per reduir el consum energetic dels nostres servidors.</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-up">
+                    <h2>Estrategia de Marqueting</h2>
+                    <p>La nostra estrategia busca diferenciar "Plant Your Day" d'altres aplicacions del mercat i arribar al nostre public objectiu mitjancant la collaboracio:</p>
+                    <ul>
+                        <li><strong>Diferenciacio per Gamificacio:</strong> Ens posicionem per sobre de la competencia gracies a la nostra interficie gamificada on un jardi virtual creix a mesura que es completen les tasques, actuant com un reforc positiu per a l'usuari.</li>
+                        <li><strong>Aliances Estrategiques (B2B):</strong> Busquem establir collaboracions amb escoles d'educacio especial, centres de terapia i associacions de families amb persones amb TEA per validar l'eina i expandir-ne l'us.</li>
+                        <li><strong>Validacio Social i Comunitaria:</strong> El nostre desenvolupament esta avalat per la resolucio de dubtes amb professionals i l'ajuda d'entitats expertes, com la Fundacio Autisme Mas Casadevall.</li>
+                        <li><strong>Transparencia de Marca:</strong> La nostra estructura de govern horitzontal, etica i 100% transparent es converteix en un reclam clau per generar confianca en les families i futurs inversors.</li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="cta-banner-inner fade-up">
+                <h2>Vols collaborar amb Plant Your Day?</h2>
+                <p>Contacta'ns per descobrir com podem treballar junts per millorar la vida de les persones amb TEA.</p>
+                <div class="cta-banner-buttons">
+                    <a href="contacte.html" class="btn btn-primary">Contacta'ns</a>
+                    <a href="equip.html" class="btn btn-outline">Coneix l'equip</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Desenvolupat per l'equip de <span>MATT CORP</span>: Òscar Domínguez Martinez, Jan Noguer Reixach</p>
-        <p style="margin-top:0.4rem">© 2026 MATT CORP — Tots els drets reservats.</p>
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-brand-logo">
+                        <img src="../assets/imatges/logoAPP.png" alt="Plant Your Day">
+                        <span>Plant Your Day</span>
+                    </a>
+                    <p>Fent les rutines mes facils per a persones amb TEA.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegacio</h4>
+                    <ul>
+                        <li><a href="../index.html">Inici</a></li>
+                        <li><a href="funcionament.html">Funcionament</a></li>
+                        <li><a href="model-negoci.html">Model de Negoci</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Projecte</h4>
+                    <ul>
+                        <li><a href="equip.html">Equip</a></li>
+                        <li><a href="contacte.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacte</h4>
+                    <ul>
+                        <li>hola@mattcorp.cat</li>
+                        <li>Catalunya, Espanya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MATT CORP. Tots els drets reservats.</p>
+                <p>Desenvolupat per Oscar Dominguez Martinez i Jan Noguer Reixach</p>
+            </div>
+        </div>
     </footer>
 
+    <button class="scroll-top" id="scrollTop" aria-label="Tornar a dalt">&#8593;</button>
+    <script src="../js/main.js"></script>
 </body>
 </html>

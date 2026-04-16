@@ -1,83 +1,243 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plant Your Day - MATT CORP</title>
+    <title>Plant Your Day - Agenda Visual per a TEA</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <div class="brand-bar">
-        <span class="logo-icon"><img src="assets/imatges/logoAPP.png" alt="Logo" width="150" height="150*"></span>
-        <h1>Plant Your Day</h1>
-        <p class="tagline">Una agenda visual interactiva dissenyada per a persones amb Trastorn de l'Espectre Autista (TEA) — organitza, creix, assoleix.</p>
-    </div>
+    <a href="#main" class="skip-link">Saltar al contingut</a>
 
-    <nav class="tab-nav" role="navigation" aria-label="Navegació principal">
-        <a href="index.html" class="active">Inici</a>
-        <a href="pages/funcionament.html">Funcionament</a>
-        <a href="pages/model-negoci.html">Model de Negoci</a>
-        <a href="pages/video.html">Vídeo</a>
-        <a href="pages/equip.html">Equip</a>
-        <a href="pages/contacte.html">Contacte</a>
+    <nav class="navbar" role="navigation" aria-label="Navegacio principal">
+        <div class="navbar-inner">
+            <a href="index.html" class="navbar-logo">
+                <img src="assets/imatges/logoAPP.png" alt="Plant Your Day Logo">
+                <span>Plant Your Day</span>
+            </a>
+            <div class="navbar-links" id="navLinks">
+                <a href="index.html" class="active">Inici</a>
+                <a href="pages/funcionament.html">Funcionament</a>
+                <a href="pages/model-negoci.html">Model de Negoci</a>
+                <a href="pages/video.html">Video</a>
+                <a href="pages/equip.html">Equip</a>
+                <a href="pages/contacte.html">Contacte</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Obrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </nav>
 
-    <main>
-        <div class="app-showcase">
-                <div class="showcase-content">
-                    <h2 class="showcase-title">Plant Your Day</h2>
-                    <h3 class="showcase-subtitle">Fent les rutines més fàcils</h3>
-                    <p class="showcase-desc">Una agenda visual i interactiva per a persones amb TEA que ajuda a estructurar el dia a dia de manera clara i motivadora.</p>
-                    <div class="showcase-buttons">
-                        <a href="#" class="btn-download">Descarregar App</a>
-                        <a href="pages/funcionament.html" class="btn-learn">Saber més →</a>
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <div class="hero-badge">&#127793; Agenda Visual Interactiva</div>
+                    <h1>Plant Your Day</h1>
+                    <h2>Fent les rutines mes facils</h2>
+                    <p class="hero-desc">Una agenda visual i interactiva per a persones amb TEA que ajuda a estructurar el dia a dia de manera clara i motivadora.</p>
+                    <div class="hero-buttons">
+                        <a href="#descarrega" class="btn btn-primary">&#11015; Descarregar App</a>
+                        <a href="pages/funcionament.html" class="btn btn-outline">Saber mes &#8594;</a>
                     </div>
                 </div>
-
-                <div class="showcase-phones">
-                    <div class="phone-mockup">
-                        <div class="phone-screen">
-                            <img src="assets/imatges/2pantalles.png" alt="Plant Your Day - Login i jardí virtual" class="phone-img phone-img--left">
+                <div class="hero-visual">
+                    <div class="phone-group">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <img src="assets/imatges/2pantalles.png" alt="Plant Your Day - Login i jardi virtual" class="phone-img phone-img--left">
+                            </div>
                         </div>
-                    </div>
-                    <div class="phone-mockup phone-mockup--raised">
-                        <div class="phone-screen">
-                            <img src="assets/imatges/4pantalles.png" alt="Plant Your Day - Agenda i gestió" class="phone-img phone-img--right">
+                        <div class="phone-mockup phone-mockup--raised">
+                            <div class="phone-screen">
+                                <img src="assets/imatges/4pantalles.png" alt="Plant Your Day - Agenda i gestio" class="phone-img phone-img--right">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="fi-icon"><img src="assets/imatges/agendavisual.png" alt="AgendaVisual" width="50" height="50"></div>
-                    <strong>Agenda Visual</strong>
-                    <p>Pictogrames d'ARASAAC per representar cada tasca de forma clara i accessible.</p>
+        <!-- FEATURES -->
+        <section class="section section--alt">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Funcionalitats</span>
+                    <h2>Que ofereix Plant Your Day?</h2>
+                    <p>Eines dissenyades per millorar l'autonomia i les rutines diaries</p>
                 </div>
-                <div class="feature-item">
-                    <div class="fi-icon"><img src="assets/imatges/gamificacio.jpg" alt="gamificacio" width="50" height="50"></div>
-                    <strong>Gamificació</strong>
-                    <p>Un jardí virtual que creix a mesura que l'usuari completa les seves activitats.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="fi-icon"><img src="assets/imatges/privacitat.jpg" alt="privacitat" width="50" height="50"></div>
-                    <strong>Privacitat</strong>
-                    <p>Compliment rigorós de l'RGPD. Les teves dades mai seran comercialitzades.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="fi-icon"><img src="assets/imatges/greenIT.jpg" alt="privacitat" width="50" height="50"></div>
-                    <strong>Green IT</strong>
-                    <p>Codi optimitzat i economia circular per minimitzar l'impacte mediambiental.</p>
+                <div class="features-grid">
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon">
+                            <img src="assets/imatges/agendavisual.png" alt="Agenda Visual">
+                        </div>
+                        <h3>Agenda Visual</h3>
+                        <p>Pictogrames d'ARASAAC per representar cada tasca de forma clara i accessible.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-1">
+                        <div class="feature-icon">
+                            <img src="assets/imatges/gamificacio.jpg" alt="Gamificacio">
+                        </div>
+                        <h3>Gamificacio</h3>
+                        <p>Un jardi virtual que creix a mesura que l'usuari completa les seves activitats.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-2">
+                        <div class="feature-icon">
+                            <img src="assets/imatges/privacitat.jpg" alt="Privacitat">
+                        </div>
+                        <h3>Privacitat</h3>
+                        <p>Compliment rigoros de l'RGPD. Les teves dades mai seran comercialitzades.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-3">
+                        <div class="feature-icon">
+                            <img src="assets/imatges/greenIT.jpg" alt="Green IT">
+                        </div>
+                        <h3>Green IT</h3>
+                        <p>Codi optimitzat i economia circular per minimitzar l'impacte mediambiental.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-label">Sobre nosaltres</span>
+                    <h2>Que es Plant Your Day?</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text fade-up">
+                        <h3>Tecnologia al servei de la inclusio</h3>
+                        <p>Plant Your Day es una aplicacio dissenyada per ajudar a les persones amb Trastorn de l'Espectre Autista (TEA) a organitzar les seves rutines diaries. La nostra plataforma ofereix una manera intuitiva i visual d'estructurar el dia a dia.</p>
+                        <p>Desenvolupada per estudiants del Cicle Formatiu de Grau Superior, Plant Your Day neix del desig d'utilitzar la tecnologia per millorar la qualitat de vida de les persones amb TEA.</p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <div class="about-feature-icon">&#128197;</div>
+                                <div class="about-feature-text">
+                                    <strong>Rutines clares</strong>
+                                    <p>Agenda visual amb pictogrames</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">&#127795;</div>
+                                <div class="about-feature-text">
+                                    <strong>Jardi virtual</strong>
+                                    <p>Gamificacio com a reforc positiu</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">&#128100;</div>
+                                <div class="about-feature-text">
+                                    <strong>Perfils tutors</strong>
+                                    <p>Seguiment i personalitzacio</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">&#128274;</div>
+                                <div class="about-feature-text">
+                                    <strong>100% Segur</strong>
+                                    <p>Dades protegides amb RGPD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual fade-up fade-up-delay-2">
+                        <div class="phone-group">
+                            <div class="phone-mockup">
+                                <div class="phone-screen">
+                                    <img src="assets/imatges/2pantalles.png" alt="App screenshots" class="phone-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOAD CTA -->
+        <section class="download-section" id="descarrega">
+            <div class="download-inner">
+                <div class="download-content fade-up">
+                    <h2>Prova Plant Your Day ara</h2>
+                    <p>Descarrega la versio prototip de la nostra aplicacio i descobreix com Plant Your Day pot ajudar a millorar les rutines diaries.</p>
+                    <div class="download-buttons">
+                        <a href="#" class="btn btn-white">&#11015; Descarregar per Android</a>
+                        <span class="btn" style="opacity:0.5;cursor:default">Proximament per iOS</span>
+                    </div>
+                    <p class="download-meta">Versio actual: 1.0.0 (Prototip) | Ultima actualitzacio: Abril 2026</p>
+                </div>
+                <div class="download-visual fade-up fade-up-delay-2">
+                    <div class="phone-group">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <img src="assets/imatges/4pantalles.png" alt="App screenshots" class="phone-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRE-FOOTER CTA -->
+        <section class="cta-banner">
+            <div class="cta-banner-inner fade-up">
+                <h2>Vols saber mes sobre Plant Your Day?</h2>
+                <p>Descobreix com funciona la nostra aplicacio i com pot ajudar a les persones amb TEA a organitzar les seves rutines.</p>
+                <div class="cta-banner-buttons">
+                    <a href="pages/funcionament.html" class="btn btn-primary">Com funciona</a>
+                    <a href="pages/contacte.html" class="btn btn-outline">Contacta'ns</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Desenvolupat per l'equip de <span>MATT CORP</span>: Òscar Domínguez Martinez, Jan Noguer Reixach</p>
-        <p style="margin-top:0.4rem">© 2026 MATT CORP — Tots els drets reservats.</p>
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-brand-logo">
+                        <img src="assets/imatges/logoAPP.png" alt="Plant Your Day">
+                        <span>Plant Your Day</span>
+                    </a>
+                    <p>Fent les rutines mes facils per a persones amb TEA.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegacio</h4>
+                    <ul>
+                        <li><a href="index.html">Inici</a></li>
+                        <li><a href="pages/funcionament.html">Funcionament</a></li>
+                        <li><a href="pages/model-negoci.html">Model de Negoci</a></li>
+                        <li><a href="pages/video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Projecte</h4>
+                    <ul>
+                        <li><a href="pages/equip.html">Equip</a></li>
+                        <li><a href="pages/contacte.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacte</h4>
+                    <ul>
+                        <li>hola@mattcorp.cat</li>
+                        <li>Catalunya, Espanya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MATT CORP. Tots els drets reservats.</p>
+                <p>Desenvolupat per Oscar Dominguez Martinez i Jan Noguer Reixach</p>
+            </div>
+        </div>
     </footer>
 
+    <button class="scroll-top" id="scrollTop" aria-label="Tornar a dalt">&#8593;</button>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
