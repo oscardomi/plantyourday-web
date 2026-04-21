@@ -35,53 +35,291 @@
 
     <main id="main">
         <section class="page-hero">
-            <h1>Com funciona Plant Your Day</h1>
-            <p>Descobreix les caracteristiques i funcionalitats de la nostra aplicacio</p>
+            <div class="page-hero-inner">
+                <span class="section-label" style="color:rgba(255,255,255,0.7);">Manual d'us</span>
+                <h1>Com funciona Plant Your Day</h1>
+                <p>Descobreix pas a pas totes les funcionalitats de la nostra aplicacio per a persones amb TEA</p>
+                <div class="manual-nav">
+                    <a href="#alumne" class="manual-nav-btn">&#128100; Us de l'App</a>
+                    <a href="#tutor" class="manual-nav-btn">&#128203; Panell Tutor</a>
+                    <a href="#pictogrames" class="manual-nav-btn">&#127758; Pictogrames</a>
+                    <a href="#admin" class="manual-nav-btn">&#9881; Administrador</a>
+                </div>
+            </div>
         </section>
 
-        <section class="content-section">
-            <div class="content-inner">
-                <div class="section-header">
-                    <span class="section-label">Pas a pas</span>
-                    <h2>Flux d'us de l'aplicacio</h2>
-                    <p>Plant Your Day guia l'usuari pas a pas a traves d'una interficie senzilla i adaptada</p>
+        <!-- SECCIO 1: US DE L'APP PER L'ALUMNE -->
+        <section class="manual-section" id="alumne">
+            <div class="manual-section-inner">
+                <div class="manual-section-header">
+                    <div class="manual-section-icon">&#128100;</div>
+                    <div>
+                        <span class="section-label">Seccio 1</span>
+                        <h2>Us de l'App per l'Alumne</h2>
+                        <p>Des del login fins a completar una activitat amb els seus subpassos</p>
+                    </div>
                 </div>
 
-                <div class="steps">
-                    <div class="step fade-up">
-                        <div class="step-num">1</div>
-                        <div class="step-body">
-                            <strong>Configuracio del perfil</strong>
-                            <p>El tutor o educador crea el perfil de l'alumne i personalitza les preferencies visuals, de so i de dificultat de les tasques.</p>
-                        </div>
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 1</div>
+                        <img src="../assets/imatges/1.png" alt="Login" class="manual-img">
                     </div>
-                    <div class="step fade-up fade-up-delay-1">
-                        <div class="step-num">2</div>
-                        <div class="step-body">
-                            <strong>Creacio de la rutina diaria</strong>
-                            <p>S'assignen pictogrames d'ARASAAC a cada franja horaria del dia, formant una sequencia visual clara i facil de seguir per l'usuari.</p>
-                        </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Acces a l'app</div>
+                        <h3>Inici de sessio</h3>
+                        <p>La primera pantalla que veu l'usuari es el formulari de login. Entra amb el teu correu electronic i contrasenya per accedir al teu perfil personalitzat.</p>
+                        <ul class="manual-list">
+                            <li>Acces amb email i contrasenya</li>
+                            <li>Disseny accessible i senzill</li>
+                            <li>Perfil personalitzat per a cada usuari</li>
+                        </ul>
                     </div>
-                    <div class="step fade-up fade-up-delay-2">
-                        <div class="step-num">3</div>
-                        <div class="step-body">
-                            <strong>Execucio de les tasques</strong>
-                            <p>L'usuari veu les seves tasques del dia representades visualment. En completar cada activitat, marca-la com a feta amb un sol toc.</p>
-                        </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 2</div>
+                        <img src="../assets/imatges/2.png" alt="Activitat Temps de Dibuixar" class="manual-img">
                     </div>
-                    <div class="step fade-up fade-up-delay-3">
-                        <div class="step-num">4</div>
-                        <div class="step-body">
-                            <strong>Reforc positiu amb el jardi virtual</strong>
-                            <p>Cada tasca completada fa creixer el jardi virtual de l'usuari, actuant com a recompensa motivadora i reforc positiu immediat.</p>
-                        </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Activitat del dia</div>
+                        <h3>Activitat: Temps de Dibuixar</h3>
+                        <p>L'alumne veu l'activitat assignada per al moment actual, com ara "Temps de Dibuixar". La pantalla mostra el pictograma gran i clar amb el nom de l'activitat per facilitar la comprensio.</p>
+                        <ul class="manual-list">
+                            <li>Pictograma gran i visible</li>
+                            <li>Nom de l'activitat en text</li>
+                            <li>Facil d'identificar i seguir</li>
+                        </ul>
                     </div>
-                    <div class="step fade-up fade-up-delay-4">
-                        <div class="step-num">5</div>
-                        <div class="step-body">
-                            <strong>Seguiment i ajustos</strong>
-                            <p>El tutor pot revisar l'historial de tasques completades i ajustar la rutina en funcio del progres i les necessitats de l'alumne.</p>
-                        </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 3</div>
+                        <img src="../assets/imatges/3.png" alt="Subpassos de l'activitat" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Subpassos</div>
+                        <h3>Passos de l'activitat</h3>
+                        <p>Cada activitat es desglossa en subpassos visuals numerats. L'alumne avanca pas a pas marcant cada accio completada, cosa que facilita l'autonomia i redueix l'ansietat.</p>
+                        <ul class="manual-list">
+                            <li>Passos numerats amb pictogrames</li>
+                            <li>Marcar cada pas individualment</li>
+                            <li>Progres visual clar en tot moment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 4</div>
+                        <img src="../assets/imatges/4.png" alt="Activitat completada" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Reforc positiu</div>
+                        <h3>Activitat completada!</h3>
+                        <p>Quan l'alumne completa tots els subpassos, apareix una pantalla de celebracio. El reforc positiu immediat motiva l'usuari a continuar i consolida l'habit de completar les tasques.</p>
+                        <ul class="manual-list">
+                            <li>Missatge de felicitacio</li>
+                            <li>Animacio de celebracio</li>
+                            <li>Transicio a la seguent activitat del dia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIO 2: PANELL DEL TUTOR -->
+        <section class="manual-section manual-section--alt" id="tutor">
+            <div class="manual-section-inner">
+                <div class="manual-section-header">
+                    <div class="manual-section-icon">&#128203;</div>
+                    <div>
+                        <span class="section-label">Seccio 2</span>
+                        <h2>Panell del Tutor</h2>
+                        <p>Gestio d'usuaris, calendari, horaris i creacio d'activitats</p>
+                    </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 5</div>
+                        <img src="../assets/imatges/5.png" alt="Pantalla del tutor - llista d'usuaris" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Gestio d'usuaris</div>
+                        <h3>Llista d'alumnes del tutor</h3>
+                        <p>El tutor veu tots els alumnes assignats a ell en una pantalla clara. Des d'aqui pot accedir al perfil de cadascun, revisar el seu progres i gestionar les seves rutines.</p>
+                        <ul class="manual-list">
+                            <li>Vista de tots els alumnes assignats</li>
+                            <li>Acces rapid a cada perfil</li>
+                            <li>Resum de l'estat de cada alumne</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 6</div>
+                        <img src="../assets/imatges/6.png" alt="Calendari" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Planificacio</div>
+                        <h3>Calendari setmanal</h3>
+                        <p>El calendari permet al tutor planificar les rutines dels alumnes amb una vista setmanal. Es pot navegar entre setmanes i veure d'un cop d'ull quins dies tenen activitats programades.</p>
+                        <ul class="manual-list">
+                            <li>Vista setmanal i mensual</li>
+                            <li>Navegacio facil entre dates</li>
+                            <li>Dies amb activitats marcats visualment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 7</div>
+                        <img src="../assets/imatges/7.png" alt="Horari amb les activitats" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Horari diari</div>
+                        <h3>Horari amb les activitats del dia</h3>
+                        <p>Per a cada dia, el tutor veu l'horari complet amb totes les activitats programades per franja horaria. Pot reordenar, editar o eliminar activitats directament des d'aquesta vista.</p>
+                        <ul class="manual-list">
+                            <li>Activitats ordenades per hora</li>
+                            <li>Edicio rapida de cada activitat</li>
+                            <li>Afegir noves activitats a l'horari</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 8</div>
+                        <img src="../assets/imatges/8.png" alt="Creacio d'activitat amb subpassos" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Crear activitats</div>
+                        <h3>Creacio d'activitat amb subpassos</h3>
+                        <p>El tutor crea o edita una activitat afegint-hi subpassos detallats. Cada subpas te el seu propi pictograma i descripcio, permetent adaptar el nivell de detall a les necessitats de cada alumne.</p>
+                        <ul class="manual-list">
+                            <li>Afegir i ordenar subpassos</li>
+                            <li>Pictograma per a cada subpas</li>
+                            <li>Personalitzable per a cada alumne</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIO 3: PICTOGRAMES I CONFIGURACIO -->
+        <section class="manual-section" id="pictogrames">
+            <div class="manual-section-inner">
+                <div class="manual-section-header">
+                    <div class="manual-section-icon">&#127758;</div>
+                    <div>
+                        <span class="section-label">Seccio 3</span>
+                        <h2>Pictogrames i Configuracio</h2>
+                        <p>Cerca pictogrames d'ARASAAC i personalitza el perfil de cada usuari</p>
+                    </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 9</div>
+                        <img src="../assets/imatges/9.png" alt="Cerca de pictogrames" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Biblioteca ARASAAC</div>
+                        <h3>Cerca de pictogrames</h3>
+                        <p>El cercador de pictogrames connecta directament amb la base de dades d'ARASAAC. Escriu el nom de qualsevol activitat o objecte i obtindras una llista de pictogrames rellevants per triar.</p>
+                        <ul class="manual-list">
+                            <li>Cerca per paraula clau</li>
+                            <li>Milers de pictogrames disponibles</li>
+                            <li>Resultats instantanis i visuals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 10</div>
+                        <img src="../assets/imatges/10.png" alt="Especificar nom al pictograma" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Personalitzar pictograma</div>
+                        <h3>Assignar nom al pictograma</h3>
+                        <p>Un cop seleccionat el pictograma, el tutor pot especificar el nom exacte que apareixera a la pantalla de l'alumne. Aixo permet adaptar el vocabulari al nivell i context de cada persona.</p>
+                        <ul class="manual-list">
+                            <li>Nom personalitzat per a cada pictograma</li>
+                            <li>Adaptacio del vocabulari a l'alumne</li>
+                            <li>Vista previa del resultat final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 11</div>
+                        <img src="../assets/imatges/11.png" alt="Configuracio personalitzada de l'usuari" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Perfil de l'alumne</div>
+                        <h3>Configuracio personalitzada</h3>
+                        <p>Cada alumne te la seva propia configuracio: preferencies visuals, nivell de suport, opcions de so i accessibilitat. El tutor pot ajustar-ho tot des d'aquesta pantalla per adaptar l'app a cada persona.</p>
+                        <ul class="manual-list">
+                            <li>Preferencies visuals i de contrast</li>
+                            <li>Activar o desactivar so i animacions</li>
+                            <li>Nivell de suport i ajudes visuals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIO 4: PANELL D'ADMINISTRADOR -->
+        <section class="manual-section manual-section--alt" id="admin">
+            <div class="manual-section-inner">
+                <div class="manual-section-header">
+                    <div class="manual-section-icon">&#9881;</div>
+                    <div>
+                        <span class="section-label">Seccio 4</span>
+                        <h2>Panell d'Administrador</h2>
+                        <p>Gestio global de tutors, alumnes i assignacions</p>
+                    </div>
+                </div>
+
+                <div class="manual-pair fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 12</div>
+                        <img src="../assets/imatges/12.png" alt="Pantalla d'admin amb els tutors" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Gestio de tutors</div>
+                        <h3>Llistat de tutors</h3>
+                        <p>L'administrador te una vista global de tots els tutors registrats al sistema. Pot crear nous tutors, editar les seves dades i gestionar els seus permisos d'acces a l'aplicacio.</p>
+                        <ul class="manual-list">
+                            <li>Llistat complet de tots els tutors</li>
+                            <li>Crear i editar perfils de tutors</li>
+                            <li>Gestio de permisos i rols</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="manual-pair manual-pair--reverse fade-up">
+                    <div class="manual-img-wrap">
+                        <div class="manual-img-badge">Pantalla 13</div>
+                        <img src="../assets/imatges/13.png" alt="Assignar alumnes als tutors" class="manual-img">
+                    </div>
+                    <div class="manual-text">
+                        <div class="manual-step-tag">Assignacions</div>
+                        <h3>Assignar alumnes als tutors</h3>
+                        <p>L'administrador decideix quins alumnes estan assignats a cada tutor. Aquesta pantalla permet fer les assignacions de manera senzilla, garantint que cada alumne te un tutor responsable del seu seguiment.</p>
+                        <ul class="manual-list">
+                            <li>Assignacio d'alumnes a tutors</li>
+                            <li>Vista clara de totes les relacions</li>
+                            <li>Gestio centralitzada des d'un sol lloc</li>
+                        </ul>
                     </div>
                 </div>
             </div>
